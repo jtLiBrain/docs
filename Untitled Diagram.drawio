@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T08:32:04.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="jBWh93s9zVQSlNMJ4Km_" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-14T07:20:38.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="z-4xKsAta9rdqaXCRD0w" version="13.6.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="884" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nB70IBPeVp2T91LFnyS-41" value=":&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;MyApp&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-820" width="60" height="300" as="geometry" />
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-3" value="SparkEnv" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="320" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="3nB70IBPeVp2T91LFnyS-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;" vertex="1" parent="3nB70IBPeVp2T91LFnyS-41">
-          <mxGeometry x="25" y="50" width="10" height="80" as="geometry" />
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-5" value="sparkDriver: RpcEnv" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="3nB70IBPeVp2T91LFnyS-42" value=":&lt;span style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;SparkSession.Builder&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-820" width="160" height="300" as="geometry" />
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-6" value="LiveListenerBus" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="395" y="40" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-7" value="AppStatusStore" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="395" y="150" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-8" value="SecurityManager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="395" y="250" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alYm1xxPZwHSLxNLYQ0k-9" value="Dispatcher" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
